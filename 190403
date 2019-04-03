@@ -1,0 +1,222 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://moransh4.github.io/Luca/css/swiper.min.css">
+<script src="https://moransh4.github.io/Luca/js/swiper.jquery.min.js"></script>
+
+<div class="container">
+  <div class="swiper-container suites-slider">
+    <div class="swiper-container-title-container">
+      <div class="swiper-container-title">
+        Featured Homes
+      </div>
+      <div class="see-all-container">
+        <button class="see-all-button">
+        <a href="/en/rentals/search" class="see-all-text">See All</a>
+        <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 10px; width: 10px; fill: currentcolor;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg>
+        </button>  
+      </div>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" data-name="">
+        <div class="summary-thumbnail-container-suites sqs-gallery-image-container">
+          <a href="/en/rentals/160372-lincoln-park-2br-loft-in-chicago" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/homes_slider_1.jpg" style="width: 100%;"/></a>
+          <div class="places-title">Lincoln Park 2BR Loft
+          </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide" data-name="">
+        <div class="summary-thumbnail-container-suites sqs-gallery-image-container">
+          <a href="/en/rentals/166628-south-loop-luxury-suite-no-6-in-chicago" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/homes_slider_5.jpg" style="width: 100%;"/></a>
+          <div class="places-title">South Loop Luxury Suite No.6
+          </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide" data-name="">
+        <div class="summary-thumbnail-container-suites sqs-gallery-image-container">
+          <a href="/en/rentals/50293-grand-plaza-suite-no-1-in-chicago" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/homes_slider_3.jpg" style="width: 100%;"/></a>
+          <div class="places-title">Grand Plaza Suite No.1
+          </div>
+        </div>
+      </div>
+     
+     <div class="swiper-slide" data-name="">
+        <div class="summary-thumbnail-container-suites sqs-gallery-image-container">
+          <a href="en/rentals/52856-cortland-coach-house-no-2-in-chicago" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/homes_slider_2.jpg" style="width: 100%;"/></a>
+          <div class="places-title">Cortland Coach House No.2
+          </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide" data-name="">
+        <div class="summary-thumbnail-container-suites sqs-gallery-image-container">
+          <a href="/en/rentals/52862-oneeleven-suite-no-1-in-chicago" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/homes_slider_4.jpg" style="width: 100%;"/></a>
+          <div class="places-title">OneEleven Suite No.1
+          </div>
+        </div>
+      </div>   
+    </div>
+  
+    <!-- Add Pagination -->
+    <div class="swiper-pagination pag-suites"></div>
+    <!-- Add Arrows -->  
+    <div class="swiper-button-prev"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="shared_previous" focusable="false" style="display: block; fill: currentcolor; height: .8em; width: .8em;"><path fill-rule="evenodd" d="M13.703 16.293a1 1 0 1 1-1.415 1.414l-7.995-8a1 1 0 0 1 0-1.414l7.995-8a1 1 0 1 1 1.415 1.414L6.413 9l7.29 7.293z"></path></svg></span></button></div>  
+    <div class="swiper-button-next"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="Next" focusable="false" style="display: block; fill: currentcolor; height: .8em; width: .8em;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg></span></button></div>
+  
+  </div>
+
+  <div class="swiper-container places">
+    <div class="swiper-container-title-container">
+      <div class="swiper-container-title">
+        Neighborhoods<br>  
+      </div>
+      <div class="see-all-container">
+        <button class="see-all-button">
+        <a href="/en/all-neighborhoods" class="see-all-text">See All</a>
+        <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 10px; width: 10px; fill: currentcolor;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg>
+        </button>
+      </div>
+    </div>
+    <div class="swiper-wrapper">  
+      <div class="swiper-slide" data-name="River North">
+        <div class="summary-thumbnail-container sqs-gallery-image-container">  
+          <a href="/en/river-north"> <img src="https://res-5.cloudinary.com/bookingsync/image/upload/q3kxgr6o18l7ur3dbwtu.jpg" style="width: 100%;"/></a>                 
+        </div>
+        <div class="places-title">River North
+        </div>
+      </div>
+      <div class="swiper-slide" data-name="Gold Coast">
+        <div class="summary-thumbnail-container sqs-gallery-image-container">
+          <a href="/en/gold-coast"> <img src="/assets/themes/896/images/gold_coast_banner.jpg" style="width: 100%;"/></a>  
+        </div>
+        <div class="places-title">                
+          Gold Coast
+        </div>
+      </div>
+      <div class="swiper-slide" data-name="Wicker Park">
+        <div class="summary-thumbnail-container sqs-gallery-image-container">       
+          <a href="/en/wicker-park" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="https://res-3.cloudinary.com/bookingsync/image/upload/lbn0awdm1me5dtnf8gqo.jpg" style="width: 100%;"/></a> 
+        </div>
+        <div class="places-title">Wicker Park
+        </div>
+      </div>
+      <div class="swiper-slide" data-name="West Loop">
+        <div class="summary-thumbnail-container sqs-gallery-image-container">  
+          <a href="/en/west-loop"> <img src="https://res-4.cloudinary.com/bookingsync/image/upload/c_fill,fl_progressive,g_center,h_800,q_90,w_1200/bmtxhfes9sc0iez0pgp6.jpg" style="width: 100%;"/></a>                 
+        </div>
+        <div class="places-title">West Loop
+        </div>
+      </div>
+      <div class="swiper-slide" data-name="The Loop">
+        <div class="summary-thumbnail-container sqs-gallery-image-container">        
+          <a href="/en/the-loop"> <img src="https://res-4.cloudinary.com/bookingsync/image/upload/c_fill,fl_progressive,g_center,h_800,q_90,w_1200/gvvce9oagiuuxecek1sz.jpg?format=2500w" style="width: 100%;"/></a> 
+        </div>
+        <div class="places-title">The Loop
+        </div>
+      </div>
+    </div>
+    
+    <!-- Add Pagination -->
+    <div class="swiper-pagination pag-suites"></div>
+    <!-- Add Arrows -->  
+    <div class="swiper-button-prev"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="shared_previous" focusable="false" style="display: block; fill: currentcolor; height: .8em; width: .8em;"><path fill-rule="evenodd" d="M13.703 16.293a1 1 0 1 1-1.415 1.414l-7.995-8a1 1 0 0 1 0-1.414l7.995-8a1 1 0 1 1 1.415 1.414L6.413 9l7.29 7.293z"></path></svg></span></button></div>
+    <div class="swiper-button-next"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="Next" focusable="false" style="display: block; fill: currentcolor; height: .8em; width: .8em;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg></span></button></div>
+    
+  </div>
+</div>
+
+<script>
+var mySwiper3 = new Swiper('.suites-slider', {
+  // Optional parameter
+  pagination: '.pag-suites',
+  paginationClickable: true,
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  freeMode: true,
+  freeModeMomentumRatio: .75,
+  freeModeMomentumVelocityRatio: 2,
+  speed: 500,
+   // Default parameters
+  slidesPerView: 3.25,
+  spaceBetween: 16,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is <= 320px
+    320: {
+      slidesPerView: 1.75,
+      spaceBetween: 12
+    },
+    // when window width is <= 480px
+    480: {
+      slidesPerView: 1.5,
+      spaceBetween: 12
+    },
+    // when window width is <= 640px
+    640: {
+      slidesPerView: 1.75,
+      spaceBetween: 12
+    },
+    // when window width is <= 768px
+    768: {
+      slidesPerView: 2.25,
+      spaceBetween: 12
+    },
+     // when window width is <= 1440px
+    1440: {
+      slidesPerView: 3.25,
+      spaceBetween: 12
+    }
+  }
+
+  
+});
+  
+</script>
+
+<script>
+var mySwiper3 = new Swiper('.places', {
+  // Optional parameters
+  // Optional parameters
+  pagination: '.pag-suites',
+  paginationClickable: true,
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  freeMode: true,
+  freeModeMomentumRatio: .75,
+  freeModeMomentumVelocityRatio: 2,
+  speed: 500,
+   // Default parameters
+  slidesPerView: 3.25,
+  spaceBetween: 16,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is <= 320px
+    320: {
+      slidesPerView: 1.75,
+      spaceBetween: 12
+    },
+    // when window width is <= 480px
+    480: {
+      slidesPerView: 1.5,
+      spaceBetween: 12
+    },
+    // when window width is <= 640px
+    640: {
+      slidesPerView: 1.75,
+      spaceBetween: 12
+    },
+    // when window width is <= 768px
+    768: {
+      slidesPerView: 2.25,
+      spaceBetween: 12
+    },
+    // when window width is <= 1440px
+    1440: {
+      slidesPerView: 3.25,
+      spaceBetween: 12
+    }
+  }
+
+});
+  
+</script>
